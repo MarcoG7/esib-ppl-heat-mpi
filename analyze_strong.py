@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 # 1. Network and computation parameters
 
 TC = 1.5e-9       # Computation time per grid point per step
-TS = 0.07         # Network latency in seconds
-BW = 110e3        # Network bandwidth in bytes/second
+TS = 0.066        # Network latency in seconds (median of 8–512 B)
+BW = 15.7e3       # Network bandwidth in bytes/second
 
 REAL_TS = 1e-6    # Latency of a real cluster
 REAL_BW = 10e9    # Bandwidth of a real cluster
